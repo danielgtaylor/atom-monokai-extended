@@ -1,0 +1,159 @@
+/* General Style */
+.editor, .editor .gutter {
+  background-color: #222222;
+  color: #f8f8f2;
+}
+
+.editor.is-focused .cursor {
+  border-color: #f8f8f0;
+}
+
+.editor.is-focused .selection .region {
+  background-color: #444444;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #333333;
+}
+
+.comment {
+  color: #75715e;
+}
+
+.string {
+  color: #e6db74;
+}
+
+.constant.numeric {
+  color: #be84ff;
+}
+
+.constant.language, .meta.preprocessor {
+  color: #be84ff;
+}
+
+.constant.character, .constant.other {
+  color: #be84ff;
+}
+
+.variable.language, .variable.other {
+  color: #ffffff;
+}
+
+.keyword {
+  color: #f92672;
+}
+
+.storage {
+  color: #f92672;
+}
+
+.storage.type {
+  font-style: italic;
+  color: #66d9ef;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #a6e22e;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  text-decoration: underline;
+  color: #a6e22e;
+}
+
+.entity.name.function {
+  color: #a6e22e;
+}
+
+.variable.parameter {
+  font-style: italic;
+  color: #fd971f;
+}
+
+.entity.name.tag {
+  color: #f92672;
+}
+
+.entity.other.attribute-name {
+  color: #a6e22e;
+}
+
+.support.function {
+  color: #66d9ef;
+}
+
+.support.constant {
+  color: #66d9ef;
+}
+
+.support.type, .support.class {
+  font-style: italic;
+  color: #66d9ef;
+}
+
+.support.other.variable {
+}
+
+.string .constant {
+  color: #66d9ef;
+}
+
+.string.regexp {
+  color: #f6aa11;
+}
+
+.string .variable {
+  color: #ffffff;
+}
+
+.punctuation.definition.variable {
+  color: #ffffff;
+}
+
+.entity {
+  color: #a6e22e;
+}
+
+/* General markup */
+.markup.heading {
+  color: #fd971f;
+}
+
+.markup.italic {
+  font-style: italic;
+  color: #e42e70;
+}
+
+.markup.bold {
+  font-weight: bold;
+  color: #f92672;
+}
+
+.markup.underline {
+  text-decoration: underline;
+  color: #a6e22e;
+}
+
+.markup.quote {
+  font-style: italic;
+  color: #66d9ef;
+}
+
+/* Markdown-specific */
+.gfm {
+  .link .entity {
+    text-decoration: underline;
+    color: #66d9ef;
+  }
+
+  .raw {
+    color: #ec3533;
+  }
+
+  .code .support {
+    color: #7c7865;
+  }
+}

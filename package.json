@@ -1,0 +1,12 @@
+{
+  "name": "monokai-extended",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An extended Monokai syntax theme",
+  "repository": "https://github.com/atom/monokai-extended",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
