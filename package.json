@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "An extended Monokai syntax theme",
-  "repository": "https://github.com/atom/monokai-extended",
+  "repository": "https://github.com/danielgtaylor/atom-monokai-extended",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
