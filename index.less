@@ -117,6 +117,13 @@
   color: #a6e22e;
 }
 
+/* Git status gutter */
+.editor .gutter .line-number.git-line-added,
+.editor .gutter .line-number.git-line-modified,
+.editor .gutter .line-number.git-line-removed {
+  border-left-width: 4px;
+}
+
 /* General markup */
 .markup.heading {
   color: #fd971f;
@@ -142,6 +149,24 @@
   color: #66d9ef;
 }
 
+/* HTML-specific */
+.html {
+  .doctype {
+    color: #75715e;
+  }
+}
+
+/* CSS-specific */
+.css {
+  .entity.other.attribute-name.id {
+    color: #f6aa11;
+
+    .entity {
+      color: #f6aa11;
+    }
+  }
+}
+
 /* Markdown-specific */
 .gfm {
   .link .entity {
@@ -155,5 +180,24 @@
 
   .code .support {
     color: #7c7865;
+  }
+}
+
+/* Makefile */
+.makefile {
+  .variable {
+    color: #f92672;
+  }
+
+  .target {
+    .variable {
+      color: #a6e22e;
+    }
+  }
+
+  .prerequisites {
+    .variable {
+      color: #66d9ef;
+    }
   }
 }

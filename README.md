@@ -11,11 +11,16 @@ You can open the Atom settings (`cmd-,`), select `Themes` and search for `monoka
 apm install monokai-extended
 ```
 
-Once installed, activate the theme by opening the Atom settings (`cmd-,`) and going to `Themes` -> `Syntax Theme`.
+Once installed, activate the theme by opening the Atom settings (`cmd-,`) and going to `Themes` -> `Syntax Theme` or via `cmd-shift-p` and `Settings View - Change Themes`.
 
 ## Features
 Adds scopes, support and/or improves styling for:
 
+* `gutter: git status`
+* `makefile: variable`
+* `makefile: prerequisites`
+* `html: doctype`
+* `css: #id`
 * `markdown: plain`
 * `markdown: inline code`
 * `markdown: heading`
